@@ -1,5 +1,5 @@
 {
-  "name": "flexsearch",
+  "name": "flexsearch-ts",
   "version": "0.7.31",
   "description": "Next-Generation full text search library with zero dependencies.",
   "homepage": "https://github.com/nextapps-de/flexsearch/",
