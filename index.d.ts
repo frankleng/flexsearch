@@ -145,6 +145,7 @@ declare module "flexsearch-ts" {
     context?: boolean | IndexOptions<T, Store> | ContextOptions;
     optimize?: boolean;
     boost?: (words: string[], term: string, index: number) => number;
+    async?: boolean;
 
     // Language-specific Options and Encoding
     charset?: CharsetOptions | string;
