@@ -316,7 +316,7 @@ declare module "flexsearch-ts" {
    */
   export interface IndexOptionsForDocumentSearch<
       T,
-      Store extends StoreOption = false
+      Store extends StoreOption
       > extends IndexOptions<T, Store> {
     // Additional Options for Document Indexes
     worker?: boolean;
